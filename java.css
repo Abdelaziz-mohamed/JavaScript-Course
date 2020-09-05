@@ -1,0 +1,474 @@
+/* 446 */
+/*start main rules*/
+body{
+    background-color: white;
+    max-height: 9000px
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.clearfix{clear: both}
+/*end main rules*/
+
+/*start header*/
+.header .slider{
+    background-image: url(p.jpg);
+    background-size: cover; 
+    height: 600px
+}
+.header .slider .intro{
+    padding-top: 200px;
+    text-align: center;
+}
+.header .slider .intro h2{
+    margin: 0 auto;
+    font-size: 70px;
+    width: 600px;
+    color: rgba(237, 168, 13, 0.89);
+    border-top-width: 7px;
+    border-top-style: double;
+    border-top-color: white;
+    border-bottom-width: 7px;
+    border-bottom-style: double;
+    border-bottom-color: black
+}
+.header .slider .intro button{
+    background: none;
+    margin-top: 30px;
+    font-size: 40px;
+    border: 2px solid #FFF;
+    font-weight: bolder;
+    padding: 10px 40px;
+    cursor: pointer
+}
+.header .slider .intro button:hover{
+    color: aliceblue;
+    border: 9px double black;
+    font-size: 40.5px
+}
+.header .navbar{
+    background-color:  #252F31;
+    color: #FFF;
+    overflow: hidden;
+    text-transform: capitalize
+}
+.header .navbar ul{
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right
+}
+.header .navbar ul li{
+    padding: 10px;
+}
+.header .navbar ul li a{
+    color: #FFF;
+    font-weight: bold;
+    text-decoration:none
+}
+.header .navbar ul li:hover{
+    color: rgba(47, 211, 115, 0.767);
+    text-decoration: none;
+    border-radius: 15px
+}
+/*end header*/
+/*start features*/
+.features{
+    overflow: hidden;
+    padding: 30px 0 30px;
+    padding-top: 40px;
+    padding-bottom: 50px
+}
+.features .feat{
+    width: 33.3333%;
+    height: 150px;
+}
+.features .feat h2{
+    text-transform: capitalize;
+    color: #444
+}
+.features .feat p{line-height: 1.6;color: #828282}
+/*end features*/
+/*start about me*/
+.about-me{
+    background-color: #F2F2F2;
+    overflow: hidden
+}
+.about-me .image{
+    width: 40%;
+    height: 547px
+}
+.about-me .image img
+{
+    width: 100%; 
+    height: 100%;
+}
+.about-me .info{
+    width: 60%;
+}
+.about-me .info h2,
+.about-me .info .hobbies .content div h3{
+    color: #555
+}
+.about-me .info h2{
+    margin: 40px 0 20px 40px
+}
+.about-me .info > p{
+    margin: 0 0 10px 40px;   
+}
+.about-me .info p:last-of-type{
+    margin-top: 2
+    0px
+}
+.about-me .info p{
+    line-height: 1.5;
+    color: #666
+}
+.about-me .info .hobbies{
+    margin: 20px 0 0 40px
+}
+.about-me .info .hobbies .content{
+    width: 50%;
+    min-height: 100px;
+    overflow: hidden
+}
+.about-me .info .hobbies .content .icon{
+    width: 12px;
+    margin: 22px 13px 10px 0
+}
+.about-me .info .hobbies .icon img{
+    max-width: 150%;
+    margin-bottom: 20px
+}
+.about-me .info .hobbies .content .text{
+    width: 88%
+}
+/*end about me*/
+/*start my skills*/
+.my-skills{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden
+}
+.my-skills .skills,
+.my-skills .progress{
+    width: 50%
+}
+.my-skills .skills h2{
+    margin: 25px 0 20px 40px;
+    color: #555
+}
+.my-skills .skills p{
+    margin: 0 0 10px 40px;
+    line-height: 1.5;
+    color: #666   
+}
+.my-skills .skills p:last-of-type{
+    margin-top: 5px
+}
+.my-skills button{
+    background: none;
+    border: 3px solid #3CD38E;
+    padding: 10px 30px;
+    color: #3CD38E;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 40px
+}
+.my-skills .progress .technique{
+    margin-left: 50px
+}
+.my-skills .progress .technique h3{
+    color: #555
+}
+.my-skills .progress .technique div{
+    background-color: #F2F2F2;
+    height: 25px
+}
+.my-skills .progress .technique div span{
+    background-color: #3CD38E;
+    display: block;
+    color: #F2F2F2;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bolder
+}
+/*end my skills*/
+/*start resume*/
+.resume{
+    background-color: #ececec;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: rgba(78, 78, 78, 0.849);
+    font-weight: bold
+}
+.resume h2{
+    text-transform: capitalize;
+    color: rgba(54, 54, 54, 0.849);
+}
+.resume p{
+    padding: 0 50px
+}
+.resume button{
+    background: none;
+    border: 3px solid #3CD38E;
+    padding: 10px 30px;
+    color: #3CD38E;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder
+}
+/*end resume*/
+/*start my education*/
+.my-education{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden
+}
+.my-education .main{
+    width: 50%;
+    margin-right: 5%
+}
+.my-education .main h2{
+    margin: 25px 0 20px 40px;
+    color: #555
+}
+.my-education .main p{
+    margin: 0 0 10px 40px;
+    line-height: 1.5;
+    color: #666   
+}
+.my-education .main p:last-of-type{
+    margin-top: 5px
+}
+.my-education .exp{
+    width: 45%
+}
+.my-education .exp h3{
+    margin-top: 73px;
+    margin-bottom: 10px;
+}
+.my-education .exp span{
+    display: block;
+    margin-bottom: 8px
+}
+.my-education .exp span:first-of-type{
+    color: #777
+}
+.my-education .exp span:last-of-type{
+    background-color: #2dcc70;
+    color: #fff;
+    display: inline-block;
+    padding: 4px 7px;
+    border-radius: 17px
+}
+.my-education .exp hr{
+    background-color:rgb(185, 184, 184);
+    margin: 20px 0;
+    height: 2px;
+    border: 0
+}
+.my-education .exp p{
+    line-height: 1.5;
+    color: #555
+}
+/*end my education*/
+/*start testimonials*/
+.testimonials{
+    background-color: #d8d8d8;
+    padding-top: 50px;
+    padding-bottom: 45px;
+    text-align: center
+}
+.testimonials q{
+    line-height: 1.8;
+    color: #444;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold
+}
+.testimonials h2{
+    color: #222
+}
+.testimonials ul{
+    list-style: none;
+    padding-left: 0;
+
+}
+.testimonials li{
+    width: 15px;
+    height: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #2dcc70;
+    display: inline-block;
+    border-radius: 15px
+}
+li.active{
+    background-color: #2Dcc70;
+}
+li:hover{
+    background-color: #2dcc70;
+    cursor: pointer
+}
+/*end testimonials*/
+/*srart portfolio*/
+.portfolio{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+    overflow: hidden    
+}
+.portfolio h2{
+    color: #444;
+    font-weight: 900;
+}
+.portfolio p{
+    color: #666;
+    line-height: 1.9;
+    padding: 0 48px;
+    font-weight: bolder;
+    font-size: 17px;
+    margin: 0 0 40px 0
+}
+.portfolio .our-work > div{
+    float: left;
+    width: 33.333333;
+    margin-bottom: 10px
+}
+.portfolio .our-work > div img{
+    width: 92%;
+    margin: 10px
+}
+/*end portfolio*/
+/*start contact me*/
+.contact{ 
+    background-color: #252F31;
+    overflow: hidden;
+    padding: 30px 0
+}
+.contact .info{
+    width: 50%;
+}
+.contact .info h2{
+    color: #FFF;
+    margin-left: 40px;
+}
+.contact .info p{
+    color: #6A6E71;
+    margin-left: 40px;
+    line-height: 1.7;
+    padding: 0 50px 0 0
+}
+.contact .form{
+    width: 45%;
+    margin-left: 5%
+}
+.contact .form label{
+    display: block;
+    color: #D1D6DA;
+    margin-bottom: 10px 
+}
+.contact .form input{
+    margin-bottom: 10px
+}
+.contact .form input[type="text"]{
+    background-color: #4B5557;
+    color: #FFF;
+    padding: 10px;
+    border: 0;
+    border-radius: 7px;
+    width: 80%;
+    height: 20px;
+}
+.contact .form textarea{
+    background-color: #4B5557;
+    color: #FFF;
+    padding: 10px;
+    border: 0;
+    width: 80%;
+    height: 300px
+}
+.contact .form input[type="submit"]{
+    background-color: #4B5557;
+    color: #FFF;
+    padding: 10px;
+    border: 0;
+    border-radius: 7px;
+    margin-top: 1px;
+    display: block;
+    width:80px;
+    cursor: pointer
+}
+.contact b{
+    color: rgb(202, 199, 199);
+}
+/*end contact me*/
+/*start footer*/
+.footer{
+    background-color: #191E22;
+    color: #6A6E71;
+    padding: 20px 0;
+    text-align: center
+}
+.footer ul{
+    padding: 0;
+    list-style: none;
+}
+.footer ul li{
+    display: inline-block;
+    margin: 0 7px
+}
+.footer ul li img{
+    width: 30px ;
+}
+/*end footer*/
+/*start framework */
+.fl-left{float: left}
+/*end framework */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
